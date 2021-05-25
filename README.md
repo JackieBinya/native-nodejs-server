@@ -12,7 +12,9 @@ This is a solution to Backend Challenge 1
 
 
 ## How it works?
-- We used a native nodejs module called https to
+- We used a native nodejs module called https to make API requests to a OMBD.
+- The query is to search by title and query parameter is hard coded in the url with a value of string of value "kill".
+- The response is then parsed into json.
 
 
 
