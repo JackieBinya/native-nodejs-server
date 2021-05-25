@@ -9,6 +9,5 @@ https.get(url, res => {
       data += chunk;
     });
      
-
     res.on("end", () => console.log(JSON.parse(data)))
 })
